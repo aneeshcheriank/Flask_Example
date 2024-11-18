@@ -1,11 +1,12 @@
-from flask import flask
+from flask import Flask
 from flask import render_template
 from random import choices
 
 app = Flask(__name__)
 
-def random_fruit():
-    fruits = ['apple', 'cherry', 'orange']
+Fruits = ['apple', 'cherry', 'orange']
+
+def random_fruit(fruits = Fruits):
     return choices(fruits)
 
 @app.route('/')
