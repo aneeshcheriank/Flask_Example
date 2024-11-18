@@ -21,3 +21,11 @@ docker build
 ## find the docker image id
 docker image ls
 docker run -p 127.0.0.1:8080 <docker image>
+
+# additional reading
+- [building a web application with flask](https://paiml.com/docs/home/books/minimal-python/chapter06-build-web-apps-flask/)
+- [MLOps for Azure](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/mlops-machine-learning)
+- [Introduction to microservices](https://www.nginx.com/blog/introduction-to-microservices)
+- [Building a Go App on App Engine](https://cloud.google.com/appengine/docs/standard/go/building-app)
+- [Getting Started with App Runner](https://docs.aws.amazon.com/apprunner/latest/dg/getting-started.html)
+- [Learn Github Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
