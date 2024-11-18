@@ -11,4 +11,13 @@ lint:
 format:
 	black *.py
 
+run-uvicorn:
+	uvicorn main:app --reload
+
+killweb:
+	sudo killall uvicorn
+
+run:
+	python app.py
+
 all: install lint test
